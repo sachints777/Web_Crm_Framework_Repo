@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WebCRM Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.webcrm.listenerutility.ListenerImplementationClass"/>
+  </listeners>
+  <test thread-count="5" name="All Test Groups(failed)">
+    <groups>
+      <run>
+        <include name="System"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.webcrm.System.Test.System_Tests">
+        <methods>
+          <include name="createAndEditActivityTest"/>
+          <include name="configBC"/>
+          <include name="createAndDeleteOpportunityTest"/>
+          <include name="createAndDeleteOrganizationTest"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="configAC"/>
+        </methods>
+      </class> <!-- com.webcrm.System.Test.System_Tests -->
+    </classes>
+  </test> <!-- All Test Groups(failed) -->
+</suite> <!-- Failed suite [WebCRM Suite] -->

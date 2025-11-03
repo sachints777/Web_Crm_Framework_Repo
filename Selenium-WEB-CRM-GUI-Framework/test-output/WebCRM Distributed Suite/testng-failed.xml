@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [WebCRM Distributed Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.webcrm.listenerutility.ListenerImplementationClass"/>
+  </listeners>
+  <test thread-count="3" parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="com.webcrm.Smoke.Test.Smoke_Tests">
+        <methods>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="createSupportTicketWithExistingOrganizationTest"/>
+          <include name="configAM"/>
+          <include name="deleteOrganisationTest"/>
+          <include name="configBM"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+        </methods>
+      </class> <!-- com.webcrm.Smoke.Test.Smoke_Tests -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="3" parallel="tests" name="Test3(failed)">
+    <classes>
+      <class name="com.webcrm.System.Test.System_Tests">
+        <methods>
+          <include name="createAndEditActivityTest"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="createAndDeleteOpportunityTest"/>
+          <include name="createAndDeleteOrganizationTest"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+        </methods>
+      </class> <!-- com.webcrm.System.Test.System_Tests -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="3" parallel="tests" name="Test2(failed)">
+    <classes>
+      <class name="com.webcrm.Integration.Test.Integration_Tests">
+        <methods>
+          <include name="organizationDeleteSupportTicketLink"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+        </methods>
+      </class> <!-- com.webcrm.Integration.Test.Integration_Tests -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [WebCRM Distributed Suite] -->

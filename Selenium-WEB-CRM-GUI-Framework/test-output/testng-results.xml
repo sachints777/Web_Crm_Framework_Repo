@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="13" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-03T04:55:37Z" name="Suite" finished-at="2025-11-03T05:02:43Z" duration-ms="426627">
+    <groups>
+      <group name="Integration">
+        <method signature="Integration_Tests.activitySupportLink()[pri:0, instance:com.webcrm.Integration.Test.Integration_Tests@10a9d961]" name="activitySupportLink" class="com.webcrm.Integration.Test.Integration_Tests"/>
+        <method signature="Integration_Tests.organizationDeleteSupportTicketLink()[pri:0, instance:com.webcrm.Integration.Test.Integration_Tests@10a9d961]" name="organizationDeleteSupportTicketLink" class="com.webcrm.Integration.Test.Integration_Tests"/>
+        <method signature="Integration_Tests.organizationOpportunityLink()[pri:0, instance:com.webcrm.Integration.Test.Integration_Tests@10a9d961]" name="organizationOpportunityLink" class="com.webcrm.Integration.Test.Integration_Tests"/>
+        <method signature="Smoke_Tests.createOrganisationTest()[pri:0, instance:com.webcrm.Smoke.Test.Smoke_Tests@130e116b]" name="createOrganisationTest" class="com.webcrm.Smoke.Test.Smoke_Tests"/>
+        <method signature="Smoke_Tests.createSupportTicketWithExistingOrganizationTest()[pri:0, instance:com.webcrm.Smoke.Test.Smoke_Tests@130e116b]" name="createSupportTicketWithExistingOrganizationTest" class="com.webcrm.Smoke.Test.Smoke_Tests"/>
+        <method signature="Smoke_Tests.deleteOrganisationTest()[pri:0, instance:com.webcrm.Smoke.Test.Smoke_Tests@130e116b]" name="deleteOrganisationTest" class="com.webcrm.Smoke.Test.Smoke_Tests"/>
+      </group> <!-- Integration -->
+      <group name="Smoke">
+        <method signature="Integration_Tests.activitySupportLink()[pri:0, instance:com.webcrm.Integration.Test.Integration_Tests@10a9d961]" name="activitySupportLink" class="com.webcrm.Integration.Test.Integration_Tests"/>
+        <method signature="Integration_Tests.organizationDeleteSupportTicketLink()[pri:0, instance:com.webcrm.Integration.Test.Integration_Tests@10a9d961]" name="organizationDeleteSupportTicketLink" class="com.webcrm.Integration.Test.Integration_Tests"/>
+        <method signature="Integration_Tests.organizationOpportunityLink()[pri:0, instance:com.webcrm.Integration.Test.Integration_Tests@10a9d961]" name="organizationOpportunityLink" class="com.webcrm.Integration.Test.Integration_Tests"/>
+        <method signature="Smoke_Tests.createOrganisationTest()[pri:0, instance:com.webcrm.Smoke.Test.Smoke_Tests@130e116b]" name="createOrganisationTest" class="com.webcrm.Smoke.Test.Smoke_Tests"/>
+        <method signature="Smoke_Tests.createSupportTicketWithExistingOrganizationTest()[pri:0, instance:com.webcrm.Smoke.Test.Smoke_Tests@130e116b]" name="createSupportTicketWithExistingOrganizationTest" class="com.webcrm.Smoke.Test.Smoke_Tests"/>
+        <method signature="Smoke_Tests.deleteOrganisationTest()[pri:0, instance:com.webcrm.Smoke.Test.Smoke_Tests@130e116b]" name="deleteOrganisationTest" class="com.webcrm.Smoke.Test.Smoke_Tests"/>
+      </group> <!-- Smoke -->
+      <group name="System">
+        <method signature="Integration_Tests.activitySupportLink()[pri:0, instance:com.webcrm.Integration.Test.Integration_Tests@10a9d961]" name="activitySupportLink" class="com.webcrm.Integration.Test.Integration_Tests"/>
+        <method signature="Integration_Tests.organizationDeleteSupportTicketLink()[pri:0, instance:com.webcrm.Integration.Test.Integration_Tests@10a9d961]" name="organizationDeleteSupportTicketLink" class="com.webcrm.Integration.Test.Integration_Tests"/>
+        <method signature="Integration_Tests.organizationOpportunityLink()[pri:0, instance:com.webcrm.Integration.Test.Integration_Tests@10a9d961]" name="organizationOpportunityLink" class="com.webcrm.Integration.Test.Integration_Tests"/>
+        <method signature="Smoke_Tests.createOrganisationTest()[pri:0, instance:com.webcrm.Smoke.Test.Smoke_Tests@130e116b]" name="createOrganisationTest" class="com.webcrm.Smoke.Test.Smoke_Tests"/>
+        <method signature="Smoke_Tests.createSupportTicketWithExistingOrganizationTest()[pri:0, instance:com.webcrm.Smoke.Test.Smoke_Tests@130e116b]" name="createSupportTicketWithExistingOrganizationTest" class="com.webcrm.Smoke.Test.Smoke_Tests"/>
+        <method signature="Smoke_Tests.deleteOrganisationTest()[pri:0, instance:com.webcrm.Smoke.Test.Smoke_Tests@130e116b]" name="deleteOrganisationTest" class="com.webcrm.Smoke.Test.Smoke_Tests"/>
+        <method signature="System_Tests.createAndDeleteOpportunityTest()[pri:0, instance:com.webcrm.System.Test.System_Tests@1458ed9c]" name="createAndDeleteOpportunityTest" class="com.webcrm.System.Test.System_Tests"/>
+        <method signature="System_Tests.createAndDeleteOrganizationTest()[pri:0, instance:com.webcrm.System.Test.System_Tests@1458ed9c]" name="createAndDeleteOrganizationTest" class="com.webcrm.System.Test.System_Tests"/>
+        <method signature="System_Tests.createAndEditActivityTest()[pri:0, instance:com.webcrm.System.Test.System_Tests@1458ed9c]" name="createAndEditActivityTest" class="com.webcrm.System.Test.System_Tests"/>
+      </group> <!-- System -->
+    </groups>
+    <test started-at="2025-11-03T04:55:37Z" name="Test" finished-at="2025-11-03T05:02:43Z" duration-ms="426627">
+      <class name="com.webcrm.System.Test.System_Tests">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.webcrm.System.Test.System_Tests@1458ed9c]" started-at="2025-11-03T04:55:37Z" name="configBS" finished-at="2025-11-03T04:55:37Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.webcrm.System.Test.System_Tests@1458ed9c]" started-at="2025-11-03T04:55:37Z" name="configBC" finished-at="2025-11-03T04:55:40Z" duration-ms="2917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.webcrm.System.Test.System_Tests@1458ed9c]" started-at="2025-11-03T04:55:40Z" name="configBM" finished-at="2025-11-03T04:55:51Z" duration-ms="11403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createAndDeleteOpportunityTest()[pri:0, instance:com.webcrm.System.Test.System_Tests@1458ed9c]" started-at="2025-11-03T04:55:51Z" name="createAndDeleteOpportunityTest" finished-at="2025-11-03T04:56:13Z" duration-ms="22260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndDeleteOpportunityTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.webcrm.System.Test.System_Tests@1458ed9c]" started-at="2025-11-03T04:56:13Z" name="configAM" finished-at="2025-11-03T04:56:17Z" duration-ms="3291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.webcrm.System.Test.System_Tests@1458ed9c]" started-at="2025-11-03T04:56:17Z" name="configBM" finished-at="2025-11-03T04:56:23Z" duration-ms="6110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createAndDeleteOrganizationTest()[pri:0, instance:com.webcrm.System.Test.System_Tests@1458ed9c]" started-at="2025-11-03T04:56:23Z" name="createAndDeleteOrganizationTest" finished-at="2025-11-03T04:58:17Z" duration-ms="113749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndDeleteOrganizationTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.webcrm.System.Test.System_Tests@1458ed9c]" started-at="2025-11-03T04:58:17Z" name="configAM" finished-at="2025-11-03T04:58:20Z" duration-ms="3011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.webcrm.System.Test.System_Tests@1458ed9c]" started-at="2025-11-03T04:58:20Z" name="configBM" finished-at="2025-11-03T04:58:21Z" duration-ms="1560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createAndEditActivityTest()[pri:0, instance:com.webcrm.System.Test.System_Tests@1458ed9c]" started-at="2025-11-03T04:58:21Z" name="createAndEditActivityTest" finished-at="2025-11-03T04:58:39Z" duration-ms="17511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndEditActivityTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.webcrm.System.Test.System_Tests@1458ed9c]" started-at="2025-11-03T04:58:39Z" name="configAM" finished-at="2025-11-03T04:58:41Z" duration-ms="1900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.webcrm.System.Test.System_Tests@1458ed9c]" started-at="2025-11-03T04:58:41Z" name="configAC" finished-at="2025-11-03T04:58:41Z" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.webcrm.System.Test.System_Tests@1458ed9c]" started-at="2025-11-03T05:02:43Z" name="configAS" finished-at="2025-11-03T05:02:43Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.webcrm.System.Test.System_Tests -->
+      <class name="com.webcrm.Smoke.Test.Smoke_Tests">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.webcrm.Smoke.Test.Smoke_Tests@130e116b]" started-at="2025-11-03T05:00:01Z" name="configBC" finished-at="2025-11-03T05:00:02Z" duration-ms="988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.webcrm.Smoke.Test.Smoke_Tests@130e116b]" started-at="2025-11-03T05:00:02Z" name="configBM" finished-at="2025-11-03T05:00:15Z" duration-ms="12964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrganisationTest()[pri:0, instance:com.webcrm.Smoke.Test.Smoke_Tests@130e116b]" started-at="2025-11-03T05:00:15Z" name="createOrganisationTest" finished-at="2025-11-03T05:00:19Z" duration-ms="3730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganisationTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.webcrm.Smoke.Test.Smoke_Tests@130e116b]" started-at="2025-11-03T05:00:19Z" name="configAM" finished-at="2025-11-03T05:00:22Z" duration-ms="3044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.webcrm.Smoke.Test.Smoke_Tests@130e116b]" started-at="2025-11-03T05:00:22Z" name="configBM" finished-at="2025-11-03T05:00:28Z" duration-ms="6584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createSupportTicketWithExistingOrganizationTest()[pri:0, instance:com.webcrm.Smoke.Test.Smoke_Tests@130e116b]" started-at="2025-11-03T05:00:28Z" name="createSupportTicketWithExistingOrganizationTest" finished-at="2025-11-03T05:00:40Z" duration-ms="11281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSupportTicketWithExistingOrganizationTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.webcrm.Smoke.Test.Smoke_Tests@130e116b]" started-at="2025-11-03T05:00:40Z" name="configAM" finished-at="2025-11-03T05:00:41Z" duration-ms="1688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.webcrm.Smoke.Test.Smoke_Tests@130e116b]" started-at="2025-11-03T05:00:41Z" name="configBM" finished-at="2025-11-03T05:00:44Z" duration-ms="2541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="deleteOrganisationTest()[pri:0, instance:com.webcrm.Smoke.Test.Smoke_Tests@130e116b]" started-at="2025-11-03T05:00:44Z" name="deleteOrganisationTest" finished-at="2025-11-03T05:02:40Z" duration-ms="116082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOrganisationTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.webcrm.Smoke.Test.Smoke_Tests@130e116b]" started-at="2025-11-03T05:02:40Z" name="configAM" finished-at="2025-11-03T05:02:43Z" duration-ms="3237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.webcrm.Smoke.Test.Smoke_Tests@130e116b]" started-at="2025-11-03T05:02:43Z" name="configAC" finished-at="2025-11-03T05:02:43Z" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.webcrm.Smoke.Test.Smoke_Tests -->
+      <class name="com.webcrm.Integration.Test.Integration_Tests">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.webcrm.Integration.Test.Integration_Tests@10a9d961]" started-at="2025-11-03T04:58:41Z" name="configBC" finished-at="2025-11-03T04:58:42Z" duration-ms="1273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.webcrm.Integration.Test.Integration_Tests@10a9d961]" started-at="2025-11-03T04:58:42Z" name="configBM" finished-at="2025-11-03T04:58:45Z" duration-ms="2839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="activitySupportLink()[pri:0, instance:com.webcrm.Integration.Test.Integration_Tests@10a9d961]" started-at="2025-11-03T04:58:45Z" name="activitySupportLink" finished-at="2025-11-03T04:59:07Z" duration-ms="21794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activitySupportLink -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.webcrm.Integration.Test.Integration_Tests@10a9d961]" started-at="2025-11-03T04:59:07Z" name="configAM" finished-at="2025-11-03T04:59:11Z" duration-ms="3491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.webcrm.Integration.Test.Integration_Tests@10a9d961]" started-at="2025-11-03T04:59:11Z" name="configBM" finished-at="2025-11-03T04:59:15Z" duration-ms="4212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="organizationDeleteSupportTicketLink()[pri:0, instance:com.webcrm.Integration.Test.Integration_Tests@10a9d961]" started-at="2025-11-03T04:59:15Z" name="organizationDeleteSupportTicketLink" finished-at="2025-11-03T04:59:35Z" duration-ms="20190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- organizationDeleteSupportTicketLink -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.webcrm.Integration.Test.Integration_Tests@10a9d961]" started-at="2025-11-03T04:59:35Z" name="configAM" finished-at="2025-11-03T04:59:37Z" duration-ms="1674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.webcrm.Integration.Test.Integration_Tests@10a9d961]" started-at="2025-11-03T04:59:37Z" name="configBM" finished-at="2025-11-03T04:59:46Z" duration-ms="9015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="organizationOpportunityLink()[pri:0, instance:com.webcrm.Integration.Test.Integration_Tests@10a9d961]" started-at="2025-11-03T04:59:46Z" name="organizationOpportunityLink" finished-at="2025-11-03T04:59:59Z" duration-ms="12928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- organizationOpportunityLink -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.webcrm.Integration.Test.Integration_Tests@10a9d961]" started-at="2025-11-03T04:59:59Z" name="configAM" finished-at="2025-11-03T05:00:01Z" duration-ms="2087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.webcrm.Integration.Test.Integration_Tests@10a9d961]" started-at="2025-11-03T05:00:01Z" name="configAC" finished-at="2025-11-03T05:00:01Z" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.webcrm.Integration.Test.Integration_Tests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
